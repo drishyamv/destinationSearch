@@ -4,8 +4,8 @@ import './index.css'
 
 class DestinationItem extends Component {
   render() {
-    const {destinationsList} = this.props
-    const {imgUrl, name} = destinationsList
+    const {destinationsDetails} = this.props
+    const {imgUrl, name} = destinationsDetails
 
     return (
       <li className="destination-card-container">
